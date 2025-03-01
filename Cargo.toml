@@ -1,0 +1,3 @@
+[workspace]
+members = ["./crates/chip-entrypoint"]
+resolver = "2"
