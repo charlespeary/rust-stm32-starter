@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-embassy-stm32 = { version = "0.2.0", features = ["defmt", "stm32f411ce", "unstable-pac", "memory-x", "time-driver-any", "exti", "chrono"] }
+embassy-stm32 = { version = "0.2.0", features = ["defmt", "stm32f446ze", "unstable-pac", "memory-x", "time-driver-any", "exti", "chrono"] }
 embassy-time = { version = "0.4.0", features = ["defmt", "defmt-timestamp-uptime", "tick-hz-32_768"] }
 embassy-executor = { version = "0.7.0", features = ["defmt", "task-arena-size-32768", "arch-cortex-m", "executor-thread", "executor-interrupt"] }
 
